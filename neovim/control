@@ -1,0 +1,5 @@
+Package: neovim
+Version: %s
+Maintainer: %s
+Architecture: all
+Description: Neovim is a fork of Vim focused on modern code and features, rather than running in legacy environments
