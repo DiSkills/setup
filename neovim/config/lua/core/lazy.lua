@@ -16,6 +16,7 @@ require("lazy").setup({
 
   { "morhetz/gruvbox" },
   { "nvim-lualine/lualine.nvim" },
+  { "lukas-reineke/indent-blankline.nvim" },
 
   { "nvim-tree/nvim-web-devicons" },
 })

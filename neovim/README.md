@@ -21,3 +21,4 @@
   - nvim-tree/nvim-web-devicons - Nerd Font icons
   - morhetz/gruvbox - colorscheme
   - nvim-lualine/lualine.nvim - statusline
+  - lukas-reineke/indent-blankline.nvim - indent guides
