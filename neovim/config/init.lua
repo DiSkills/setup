@@ -1,5 +1,7 @@
 require("core.lazy")
 
+require("plugins.lsp")
+
 require("plugins.treesitter")
 
 require("plugins.colorscheme")

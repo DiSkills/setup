@@ -15,6 +15,10 @@
 
 ## Plugins
 
+- LSP & Autocompletion
+  - neovim/nvim-lspconfig - LSP configuration
+  - mason-org/mason.nvim - LSP installer
+  - mason-org/mason-lspconfig.nvim
 - Syntax highlighting
   - nvim-treesitter/nvim-treesitter - syntax parser
 - UI

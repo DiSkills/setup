@@ -12,6 +12,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  { "neovim/nvim-lspconfig" },
+  { "mason-org/mason.nvim" },
+  { "mason-org/mason-lspconfig.nvim" },
+
   { "nvim-treesitter/nvim-treesitter" },
 
   { "morhetz/gruvbox" },
