@@ -10,8 +10,9 @@ local parsers = {
 
 require('nvim-treesitter').install(parsers)
 
+-- Enabling syntax highlighting
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = parsers,
+  pattern = vim.iter(parsers):map(vim.treesitter.language.get_filetypes):flatten():totable(),
   callback = function()
     vim.treesitter.start()
   end,
