@@ -4,7 +4,7 @@ local parsers = {
   "python", "javascript",
   "dockerfile", "gitignore", "nginx",
   "csv", "http", "json", "xml", "sql",
-  "latex", "markdown",
+  "markdown",
   "lua", "vim", "vimdoc",
 }
 
