@@ -12,7 +12,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  { 'nvim-treesitter/nvim-treesitter' },
+  { "nvim-treesitter/nvim-treesitter" },
 
-  { 'morhetz/gruvbox' },
+  { "morhetz/gruvbox" },
+  { "nvim-lualine/lualine.nvim" },
+
+  { "nvim-tree/nvim-web-devicons" },
 })

@@ -11,10 +11,13 @@
 * npm
 * luarocks
 * tree-sitter-cli
+* Nerd Font
 
 ## Plugins
 
 - Syntax highlighting
   - nvim-treesitter/nvim-treesitter - syntax parser
 - UI
+  - nvim-tree/nvim-web-devicons - Nerd Font icons
   - morhetz/gruvbox - colorscheme
+  - nvim-lualine/lualine.nvim - statusline
