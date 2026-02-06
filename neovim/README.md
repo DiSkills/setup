@@ -3,6 +3,7 @@
 # Installation
 
     ./setup.sh # Installing the latest neovim version
+    mkdir -p $HOME/.config && ln -s $(pwd)/config $HOME/.config/nvim # Setting up the configuration
 
 ## Requirements
 
