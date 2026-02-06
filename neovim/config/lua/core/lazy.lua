@@ -16,6 +16,12 @@ require("lazy").setup({
   { "mason-org/mason.nvim" },
   { "mason-org/mason-lspconfig.nvim" },
 
+  { "hrsh7th/cmp-nvim-lsp" },
+  { "hrsh7th/nvim-cmp" },
+  { "hrsh7th/cmp-cmdline" },
+  { "hrsh7th/cmp-buffer" },
+  { "hrsh7th/cmp-path" },
+
   { "nvim-treesitter/nvim-treesitter" },
 
   { "morhetz/gruvbox" },

@@ -18,7 +18,7 @@
 - LSP & Autocompletion
   - neovim/nvim-lspconfig - LSP configuration
   - mason-org/mason.nvim - LSP installer
-  - mason-org/mason-lspconfig.nvim
+  - hrsh7th/nvim-cmp - autocompletion
 - Syntax highlighting
   - nvim-treesitter/nvim-treesitter - syntax parser
 - UI
