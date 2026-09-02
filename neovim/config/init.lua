@@ -1,9 +1,11 @@
+-- Core
 require("core.lazy")
+require("core.config")
+require("core.mappings")
 
-require("plugins.lsp")
-
-require("plugins.treesitter")
-
+-- Plugins
 require("plugins.colorscheme")
-require("plugins.lualine")
 require("plugins.indent_blankline")
+require("plugins.lsp")
+require("plugins.lualine")
+require("plugins.treesitter")

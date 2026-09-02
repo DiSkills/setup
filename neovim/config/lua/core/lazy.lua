@@ -29,4 +29,8 @@ require("lazy").setup({
   { "lukas-reineke/indent-blankline.nvim" },
 
   { "nvim-tree/nvim-web-devicons" },
+
+  { 'windwp/nvim-autopairs', event = "InsertEnter", config = true },
+  { "kylechui/nvim-surround", version = "^4.0.0", event = "VeryLazy" },
+  { "tpope/vim-unimpaired" },
 })
