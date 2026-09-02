@@ -27,3 +27,7 @@
   - morhetz/gruvbox - colorscheme
   - nvim-lualine/lualine.nvim - statusline
   - lukas-reineke/indent-blankline.nvim - indent guides
+- Editing
+  - windwp/nvim-autopairs - automatic brackets and quotes
+  - kylechui/nvim-surround - manipulate surrounding characters
+  - tpope/vim-unimpaired - handy navigation and editing mappings
